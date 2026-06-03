@@ -13,16 +13,13 @@ export default function Home() {
                     <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
                         저희는 가독성과 심미성을 높이기 위해{" "}
                         <a
-                            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-                            className="font-semibold text-zinc-950 dark:text-zinc-50"
+                            href="https://toss.im/tossface?srsltid=AfmBOoo8j8SGrvPCybTH9kensHk7Je-EnSyS0kXF2nPRmcPNLxqyYCnr"
+                            className="font-semibold text-zinc-950 dark:text-zinc-50 "
                         >
                             TossFaceFont
                         </a>{" "}
                         와{" "}
-                        <a
-                            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-                            className="font-semibold text-zinc-950 dark:text-zinc-50"
-                        >
+                        <a href="https://noonnu.cc/font_page/694" className="font-semibold text-zinc-950 dark:text-zinc-50">
                             Pretendard
                         </a>{" "}
                         폰트를 사용 했습니다.
