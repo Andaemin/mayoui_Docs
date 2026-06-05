@@ -1,5 +1,6 @@
 import { MayoBtn } from "@mayoui/ui";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -7,7 +8,6 @@ export default function Home() {
             <main className="flex w-full max-w-3xl flex-row items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
                 <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
                     <h1 className="max-w-xs font-bold text-4xl">🧪 MayoUI</h1>
-                    <MayoBtn variant="primary">Click Me</MayoBtn>
                     <h1 className="max-w-sm text-3xl font-semibold leading-11 tracking-normal text-black dark:text-zinc-50">
                         한국인이 쓰기 편한 UI를 위해
                     </h1>
@@ -25,8 +25,11 @@ export default function Home() {
                         </a>{" "}
                         폰트를 사용 했습니다.
                     </p>
+                    <Link href="https://www.naver.com">
+                        <MayoBtn variant="primary">Click Me</MayoBtn>
+                    </Link>
                 </div>
-                <Image src="/Image/Daemintossface.png" width={800} height={600} className="max-ws-xs w-mx h-auto" />
+                <Image src="/Image/Daemintossface.png" width={800} height={600} className="w-64 h-auto" />
             </main>
         </div>
     );
