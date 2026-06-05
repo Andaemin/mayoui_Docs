@@ -1,9 +1,10 @@
 import { MayoBtn } from "@mayoui/ui";
+import Image from "next/image";
 
 export default function Home() {
     return (
         <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-            <main className="flex w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+            <main className="flex w-full max-w-3xl flex-row items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
                 <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
                     <h1 className="max-w-xs font-bold text-4xl">🧪 MayoUI</h1>
                     <MayoBtn variant="primary">Click Me</MayoBtn>
@@ -25,6 +26,7 @@ export default function Home() {
                         폰트를 사용 했습니다.
                     </p>
                 </div>
+                <Image src="/Image/Daemintossface.png" width={800} height={600} className="max-ws-xs w-mx h-auto" />
             </main>
         </div>
     );
