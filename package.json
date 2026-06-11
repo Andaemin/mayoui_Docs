@@ -9,7 +9,7 @@
         "lint": "eslint"
     },
     "dependencies": {
-        "@mayoui/ui": "file:../../mayoui/ui/mayoui-ui-0.0.1.tgz",
+        "mayoui": "file:../../mayoui/ui/mayoui-0.0.2.tgz",
         "next": "16.2.3",
         "react": "19.2.4",
         "react-dom": "19.2.4"

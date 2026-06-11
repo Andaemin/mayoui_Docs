@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import "@mayoui/ui/styles";
-
+import "mayoui/styles";
 // const geistSans = Geist({
 //     variable: "--font-geist-sans",
 //     subsets: ["latin"],

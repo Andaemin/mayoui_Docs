@@ -1,8 +1,9 @@
-import { MayoBtn } from "@mayoui/ui";
+import { MayoBtn, MayoDialog } from "mayoui";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+    // const [open, setOpen] = useState(false);
     return (
         <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
             <main className="flex w-full max-w-3xl flex-row items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
@@ -28,8 +29,14 @@ export default function Home() {
                     <Link href="https://www.naver.com">
                         <MayoBtn variant="primary">Click Me</MayoBtn>
                     </Link>
+                    {/* <MayoBtn variant="primary" onClick={() => setOpen(true)}>
+                        open Dialog
+                    </MayoBtn> */}
+                    {/* <MayoDialog open={open} onClose={() => setOpen(false)} title="MayoDialog">
+                        MayoDialog Test
+                    </MayoDialog> */}
                 </div>
-                <Image src="/Image/Daemintossface.png" width={800} height={600} className="w-64 h-auto" />
+                <Image src="/Image/Daemintossface.png" width={800} height={600} className="w-64 h-auto" alt="test" />
             </main>
         </div>
     );
